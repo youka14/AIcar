@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/5.13.0/css/all.css">
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+
+<body>
+    <div id="login_box">
+        <h2>注册 </h2>
+        <form method="post" action="/adduser">
+        <div id="form" >
+            <div id="input_box">
+                <i class="fa fa-user" aria-hidden="true" style="color: #000"></i>
+                <input style="color: #000" type="text" placeholder="用户名" name="username">
+            </div>
+            <div id="input_box">
+                <i class="fa fa-key" aria-hidden="true" style="color: #000"></i>
+                <input style="color: #000" class="in" type="password" placeholder="密码" name="password">
+            </div>
+            <div id="input_box">
+                <i class="fa fa-key" aria-hidden="true" style="color: #000"></i>
+                <input style="color: #000" class="in" type="password" placeholder="确认密码" name="passwordcheck">
+            </div>
+            <div id="input_box">
+                <i class="fa fa-envelope" aria-hidden="true" style="color: #000"></i>
+                <input style="color: #000" class="in" type="text" placeholder="邮箱" name="email">
+            </div>
+
+        </div>
+
+        <button type="submit" value="登录">提交</button><button type="reset" value="重置">重置</button><br>
+<h4 style="color: red">{{ message }}</h4>
+        </form>
+    </div>
+</body>
+<script></script>
+</html>

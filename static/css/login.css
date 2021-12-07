@@ -1,0 +1,58 @@
+
+body{
+    background-image:url('/static/img/3.jpeg');
+    /*
+    https://wx2.sinaimg.cn/mw2000/0064OVaTly1gwsbnob7mtj33341jk4qp.jpg
+    http://inews.gtimg.com/newsapp_ls/0/11535311052/0
+     */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#login_box{
+    width: 20%;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.75);
+    margin:auto;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.81);
+}
+#login_box h2{
+    color: #000;
+    margin-top: 5%;
+}
+#login_box #form #input_box{
+    margin-top: 5%;
+}
+#login_box #form #input_box i{
+    color: rgba(238, 237, 231, 0.5);
+}
+#login_box #form #input_box input{
+    border:0;
+    width: 60%;
+    font-size: 15px;
+    color: #fff;
+    background: #ffffff00;
+    border-bottom: 2px solid rgba(179, 157, 139, 0.31);
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+#login_box button{
+    margin-top: 50px;
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    font-size: 15px;
+    background-image: linear-gradient(to top, #30324d 0%, rgba(95, 98, 152, 0.44) 100%);
+}
+/*#login_box #Sign{*/
+/*    margin-top: 45%;*/
+/*    margin-left: 60%;*/
+/*}*/
+#login_box #Sign a{
+    color: #d1c2d8;
+}

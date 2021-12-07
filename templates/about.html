@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/templatemo-script.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Xtra Blog</title>
+	<link rel="stylesheet" href="/static/fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/templatemo-xtra-blog.css" rel="stylesheet">
+    <style>
+        .menu {
+            width: 250px;
+            height: 120px;
+            background: rgba(255, 255, 255, 0);
+            display: none;
+        }
+.hvr-bubble-float-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-bubble-float-bottom:hover, .hvr-bubble-float-bottom:focus, .hvr-bubble-float-bottom:active {
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+.hvr-bubble-float-bottom:hover:before, .hvr-bubble-float-bottom:focus:before, .hvr-bubble-float-bottom:active:before {
+  -webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
+        .m1,.m2,.m3{
+            margin-left: 150px;
+        }
+    </style>
+        <script>
+        var i = 0;
+        $(document).ready(
+            function () {
+                $(".dao").click(function () {
+                    if (i == 0) {
+                        $(".menu").slideDown();
+                        i = 1;
+                    } else {
+                        $(".menu").slideUp();
+                        i = 0;
+                    }
+                });
+            }
+        );
+    </script>
+<!--
+    
+TemplateMo 553 Xtra Blog
+
+https://templatemo.com/tm-553-xtra-blog
+
+-->
+</head>
+<body>
+	<header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <div class="mb-3 mx-auto tm-site-logo"><i class="fas fa-times fa-2x"></i></div>            
+                <h1 class="text-center">AIcar</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="hvr-bubble-float-bottom" style="margin-left: 65px;margin-bottom: 10px">
+                        <a href="/index" class="tm-nav-link">
+                        <i class="fas fa-home"></i>
+                        首页
+                    </a></li>
+{#                    <li class="tm-nav-item"><a href="/func" class="tm-nav-link">#}
+{#                        <i class="fas fa-pen"></i>#}
+{#                        功能模块#}
+{#                    </a></li>#}
+                    <li class="hvr-bubble-float-bottom" style="margin-left: 35px;margin-bottom: 10px">
+                        <div class="dao tm-nav-link" >
+                            <a href="#" class="tm-nav-link">
+                                <i class="fas fa-pen"></i>
+                                功能模块
+                            </a>
+                        </div>
+                    </li>
+                    <div class="menu">
+                            <div class="m1"><a href="/func2">图片检测</a></div>
+                            <div class="m2"><a href="/func">视频检测</a></div>
+                            <div class="m3"><a href="/func3">实时监控</a></div>
+                    </div>
+                    <li class="hvr-bubble-float-bottom" style="margin-left: 65px;margin-bottom: 10px;border-bottom: 1px solid white">
+                        <a href="/about" class="tm-nav-link">
+                        <i class="fas fa-users"></i>
+                        关于AIcar
+                    </a></li>
+                    <li class="hvr-bubble-float-bottom" style="margin-left: 65px;margin-bottom: 10px">
+                        <a href="/contact" class="tm-nav-link">
+                        <i class="far fa-comments"></i>
+                        联系我们
+                    </a></li>
+                </ul>
+            </nav>
+            <p class="tm-mb-80 pr-5 text-white">
+                AIcar是一个自动驾驶系统的实时路况检测功能模块，他实现了对对路标的检测与识别。
+<!--                Xtra Blog is a multi-purpose HTML template from TemplateMo website. Left side is a sticky menu bar. Right side content will scroll up and down.-->
+            </p>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main class="tm-main">
+            <!-- Search form -->
+            <div class="row tm-row tm-mb-45">
+                <div class="col-12">
+                    <hr class="tm-hr-primary tm-mb-55">
+                    <img src="/static/img/about-01.jpg" alt="Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row tm-row tm-mb-40">
+                <div class="col-12">                    
+                    <div class="mb-4">
+                        <h2 class="pt-2 tm-mb-40 tm-color-primary tm-post-title">关于AIcar</h2>
+                        <p>
+
+<!--                            You can immediately download -->
+<!--                                <a rel="nofollow" href="https://templatemo.com/tm-553-xtra-blog" target="_blank">Xtra Blog Template</a> -->
+<!--                                from TemplateMo website for 100% free of charge. Etiam vehicula, tortor ac eleifend tincidunt, diam neque pellentesque ipsum, -->
+<!--                                a geugiat eros mauris eget lorem. Quisque in-->
+<!--                            bibendum elit, in egestas turpis. Vestibulum ornare sollicitudin congue. Aliquam lorem mi, maximus at iaculis ut, viverra vel-->
+<!--                            mauris. Duis congue luctus metus, sodales tincidunt lectus fringilla ut. Nunc tempus at magna sed vestibulum.-->
+                        </p>
+                        <p>
+                            AIcar是一项管与自动驾驶技术功能模组的设计，它的目的在于能够使汽车在经过训练之后，实现对于道路交通标识的识别与认知，
+                            从而模拟人类按照相应的交通规则安全平稳地驾驶汽车。
+                        </p>                            
+                    </div>                    
+                </div>
+            </div>
+            <div class="row tm-row tm-mb-120">
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fas fa-bezier-curve fa-4x tm-color-primary"></i>                            
+                        </div>                        
+                        <h2 class="mb-3 tm-color-primary tm-post-title">背景</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            5G时代的到来，大大提高了信息传输的速率，使得以往不易实现的实时信息传递得以实现。而
+                            自动驾驶的技术也迎来了新的突破。在这样的背景下，顺应潮流也就成为了我们应有的选择。
+<!--                            Phasellus pulvinar nisl ornare leo porttitor, et vestibulum lorem semper. -->
+<!--                            Duis risus ex, molestie sit amet magna in,-->
+<!--                            pharetra pellentesque est. Curabitur elit metus.-->
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fas fa-users-cog fa-4x tm-color-primary"></i>                            
+                        </div>                        
+                        <h2 class="mb-3 tm-color-primary tm-post-title">团队合作</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            此次项目的构建，仅由一人完成是相当困难的，因此我们组成了三人的小组，分工合作
+                            对信息传输、检测识别、平台搭建等技术进行攻克，最终将结果呈现在页面当中，以便展示。
+<!--                            Suspendisse ullamcorper, mi vel molestie ornare, arcu magna euismod ipsum, in malesuada nulla magna ut enim. -->
+<!--                            Morbi lacinia magna sed auctor, vitae nunc cursus.-->
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 tm-about-col">
+                    <div class="tm-bg-gray tm-about-pad">
+                        <div class="text-center tm-mt-40 tm-mb-60">
+                            <i class="fab fa-creative-commons-sampling fa-4x tm-color-primary"></i>                            
+                        </div>                        
+                        <h2 class="mb-3 tm-color-primary tm-post-title">我们的价值观</h2>
+                        <p class="mb-0 tm-line-height-short">
+                            最为时代的弄潮儿，紧跟时代潮流，努力为社会创造更多的价值是我们应尽的义务。即便有所欠缺，
+                            即使我们的实力不够强大，但是我们依旧可以依靠自己的努力将我们的能量奉献出去。
+<!--                            Nunc mi ante, suscipit vel dapibus et, volutpat sit amet ante. In tempor nec sem vitae varius. Aliquam tincidunt orci sem, et imperdiet massa consectetur nec.-->
+                        </p>
+                    </div>
+                </div>
+            </div>            
+            <div class="row tm-row tm-mb-60">
+                <div class="col-12">
+                    <hr class="tm-hr-primary  tm-mb-55">
+                </div>                
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">G</h2>
+                            <h3 class="tm-h3 mb-3">组长</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Aliquam non vulputate lectus, vel ultricies diam. Suspendisse at ipsum
+                                hendrerit, vestibulum mi id, mattis tortor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Song</h2>
+                            <h3 class="tm-h3 mb-3">组员</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Quisque in bibendum elit, in egestas turpis. Vestibulum ornare sollicitudin congue. 
+                                Aliquam lorem mi, maximus at iaculis ut.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 tm-mb-60 tm-person-col">
+                    <div class="media tm-person">
+                        <img src="" alt="Image" class="img-fluid mr-4">
+                        <div class="media-body">
+                            <h2 class="tm-color-primary tm-post-title mb-2">Shen</h2>
+                            <h3 class="tm-h3 mb-3">组员</h3>
+                            <p class="mb-0 tm-line-height-short">
+                                Maecenas eu mi eu dui cursus consequat non eu metus. Morbi ac
+                                turpis eleifend, commodo purus eget, commodo mauris.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+{#                <div class="col-lg-6 tm-mb-60 tm-person-col">#}
+{#                    <div class="media tm-person">#}
+{#                        <img src="/static/img/about-05.jpg" alt="Image" class="img-fluid mr-4">#}
+{#                        <div class="media-body">#}
+{#                            <h2 class="tm-color-primary tm-post-title mb-2">Catherine Soft</h2>#}
+{#                            <h3 class="tm-h3 mb-3">Team Leader</h3>#}
+{#                            <p class="mb-0 tm-line-height-short">#}
+{#                                Integer eu sapien hendrerit,#}
+{#                                imperdiet arcu sit amet, sollicitudin ipsum.#}
+{#                                Phasellus consequat suscipit ligula eget bibendum.#}
+{#                            </p>#}
+{#                        </div>#}
+{#                    </div>#}
+{#                </div>#}
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>
